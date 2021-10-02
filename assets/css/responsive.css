@@ -1,0 +1,254 @@
+/* PC */
+@media (min-width: 1024px) {
+    .hide-on-pc {
+        display: none;
+    }
+}
+/* MOBILE - TABLET */
+@media (max-width: 1023px) {
+    .hide-on-mb-tl {
+        display: none
+    }
+    .app {
+        width: 100%;
+        overflow: hidden;
+    }
+    .grid.wide {
+        margin: 0;
+    }
+    .header {
+        left: 0;
+        right: inherit;
+    }
+    .nav__list {
+        margin-left: 32px;
+    }
+    .header__group-input {
+        width: 410px;
+        max-width: 100%;
+    }
+    .buy {
+        float: inherit;
+    }
+    .profile {
+        text-align: inherit;
+    }
+    .category-list {
+        margin: 0;
+    }
+    .content__menu {
+        justify-content: inherit;
+    }
+    .song {
+        width: 727px;
+    }
+    .cd__music {
+        right: inherit;
+    }
+    .cd-who {
+        width: inherit;
+    }
+    .playlist {
+        margin-top: 10px;
+    }
+    .song:last-child {
+        margin-bottom: 0;
+    }
+    .cd__music {
+        width: 100%;
+    }
+    .app-item-right {
+        height: 1044px;
+    }
+}
+@media (min-width:740px) and (max-width: 1023px) {
+    .hide-on-tl {
+        display: none;
+    }
+    .buy {
+        margin-left: 444px;
+    }
+    .profile {
+        width: 500px;
+        margin-left: 215px;
+    }
+    .category-list {
+        margin-top: 95px;
+        margin-left: 38px;
+    }
+    .btn-group {
+        margin-left: 418px;
+    }
+    .controls_time {
+        transform: translateX(-101px);
+    }
+}
+@media (max-width: 739px) {
+    .hide-on-mb {
+        display: none;
+    }
+    .header__control {
+        display: none;
+    }
+    .header__group-input {
+        width: 238px;
+        margin-left: 5px;
+        max-width: 100%;
+    }
+    .history__list {
+        left: 5px;
+    }
+    .buy .btn:first-child {
+        margin-left: 5px;
+        margin-right: 91px;
+    }
+    .user-name {
+        margin-left: 23px;
+    }
+    .category-list {
+        width: 344px;
+        margin-left: 16px;
+        margin-top: 95px;
+    }
+    .category-item {
+        padding: 7px 15px;
+    }
+    .btn-group a:last-child {
+        margin-left: 142px;
+    }
+    .song {
+        width: 343px;
+    }
+    .cd-who {
+        width: 180px;
+    }
+    .controls_player {
+        margin-right: 12px;
+    }
+    .playlist {
+        margin-bottom: 90px;
+    }
+    .profile {
+        margin-left: 0;
+    }
+}
+@media (min-width: 376px) and (max-width: 414px) {
+    .header__group-input {
+        width: 273px;
+    }
+    .buy .btn:first-child {
+        margin-right: 130px;
+    }
+    .profile {
+        margin-left: 18px;
+    }
+    .category-list {
+        margin-left: 33px;
+    }
+    .btn-group a:last-child {
+        margin-left: 172px;
+    }
+    .song {
+        width: 377px;
+    }
+}
+@media (min-width: 415px) and (max-width: 540px) {
+    .header__group-input {
+        width: 401px;
+    }
+    .buy .btn:first-child {
+        margin-right: 256px;
+    }
+    .profile {
+        margin-left: 78px;
+    }
+    .category-list {
+        margin-left: 94px;
+    }
+    .btn-group a:last-child {
+        margin-left: 294px;
+    }
+    .song {
+        width: 500px;
+    }
+    .controls_player {
+        margin-right: 25px;
+    }
+    .cd-who {
+        width: 296px;
+    }
+}
+@media (max-width: 280px) {
+    .hide-on-mb-small {
+        display: none;
+    }
+    .header__group-input {
+        display: none;
+    }
+    .nav__list {
+        margin-left: 173px;
+    }
+    .buy .btn:first-child {
+        margin-left: 3px;
+        margin-right: 0;
+    }
+    .profile {
+        margin-left: -56px;
+    }
+    .user-name {
+        margin-left: 75px;
+        font-size: 2.3rem;
+    }
+    .category-list {
+        width: 239px;
+    }
+    .btn-group a:last-child {
+        margin-left: 41px;
+    }
+    .song {
+        width: 252px;
+    }
+    .song-time {
+        margin-right: 5px;
+    }
+    .cd-who {
+        width: 98px;
+    }
+    .cd-group {
+        margin-left: 9px;
+    }
+}
+@media (min-width: 280px) and (max-width: 320px) {
+    .hide-on-mb-ss {
+        display: none;
+    }
+    .header__group-input {
+        width: 181px;
+    }
+    .buy .btn:first-child {
+        margin-right: 36px;
+    }
+    .profile {
+        margin-left: -35px;
+    }
+    .user-name {
+        font-size: 2.7rem;
+        margin-left: 53px;
+    }
+    .category-item {
+        padding: 7px 9px;
+    }
+    .category-list {
+        width: 295px;
+        margin-left: 12px;
+    }
+    .btn-group a:last-child {
+        margin-left: 79px;
+    }
+    .song {
+        width: 292px;
+    }
+    .cd-who {
+        width: 122px;
+    }
+}

@@ -1,0 +1,30 @@
+:root {
+    --white-color: #fafdff;
+    --black-color: #000;
+    --text-color: #b6b5b7;
+    --yellow-color: #f8e71c;
+    --red-color: #ff0a0a;
+    --primary-color: #231b2e;
+}
+* {
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6rem;
+}
+
+.btn {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: var(--black-color);
+    padding: 6px 35px;
+    background-color: var(--yellow-color);
+    border-radius: 50px;
+    transition: all linear 0.3s;
+}
+.btn:hover {
+    background-color: #b6a804;
+}
